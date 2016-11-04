@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Owl Carousel Demo</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>La Flames RodeoHouse</h1>
+
+    <!-- carousel -->
+    <div class="owl-carousel">
+      <div class="item"><img src="img/barbecue_1.jpg"></div>
+      <div class="item"><img src="img/pork_1.jpg"></div>
+      <div class="item"><img src="img/doughnuts_1.jpg"></div>
+      <div class="item"><img src="img/icecream_1.jpg"></div>
+      <div class="item"><img src="img/cocktail_1.jpg"></div>
+      <div class="item"><img src="img/fries_1.jpg"></div>
+      <div class="item"><img src="img/shrimp_1.jpg"></div>
+      <div class="item"><img src="img/teriyaki_1.jpg"></div>
+    </div>
+
+    <!-- JavaScript -->
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+          autoplay: true,
+          autoplayHoverPause: true,
+          autoplayTimeout: 1000,
+          loop: true,
+          nav : false,
+          items : 2
+
+      })
+     })
+    </script>
+  </body>
+</html>
